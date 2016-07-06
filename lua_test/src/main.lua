@@ -15,3 +15,40 @@ print(n)
 --[[third part]]--
 b = nil
 print(b)
+str = "good\nbye"
+print(#str)
+
+page = [[
+<html>
+<head>
+  <title>HTML PAGE</title>
+</head>
+<body>
+  <a href="http://www.lua.org">Lua</a>
+</body>
+</html>
+]]
+print(page)
+
+print("10" / 2)
+print("10".. 1)
+
+a = {}
+a['1'] = 'e'
+a['2'] = 'f'
+print(a['1'])
+for i='1', '2' do
+  print(a[i])
+end
+
+str_1 = [===[
+<![CDATA[
+       Hello world
+]]>]===]
+print(str_1)
+
+x = 12
+y = 3
+print(x % y)
+
+print(math.pi)
